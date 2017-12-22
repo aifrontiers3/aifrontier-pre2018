@@ -1,0 +1,39 @@
+.navbar {
+  margin-bottom: 20px; }
+
+.sidebar {
+  font-size: 14px;
+  margin-bottom: 20px; }
+
+.card {
+  margin-bottom: 40px;
+  border: none; }
+  .card .card-body {
+    padding: 0; }
+
+.card#conference-preview {
+  height: 150px;
+  overflow: hidden;
+  background-image: url("/images/bg-cropped.jpg");
+  background-size: cover; }
+  .card#conference-preview .card-title {
+    font-size: 2rem; }
+  .card#conference-preview .card-text {
+    font-size: 1.1rem; }
+  .card#conference-preview .card-body {
+    padding: 1.25rem; }
+
+.card#sponsors img {
+  height: 30px;
+  margin: 10px; }
+
+.card#conference-organizers .card-text {
+  padding-left: 10px; }
+
+.copyright {
+  width: 100%;
+  border-top: #eee 1px solid;
+  padding: 40px 0; }
+  .copyright p {
+    text-align: center;
+    margin-bottom: 0; }
